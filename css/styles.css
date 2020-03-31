@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+  }
+
+li {
+    list-style: none;
+}
+
+header {
+    background: #882a04;
+    color: rgb(32, 32, 32);
+    height: 90px;
+    max-width: 100%;
+    margin: auto;
+
+}
+
+.header-logo {
+    float: left;
+    padding: 21px 40px;
+    font-size: 30px;
+    font-family: 'Calistoga', cursive;
+    font-family: 'Merriweather', serif;
+    border-right: 2px solid rgb(32, 32, 32);
+}
+
+.nav {
+    float: left;
+    font-size: 20px;
+}
+
+.nav li{
+    float: left;
+    padding: 10px 20px;
+}
+
+body {
+    margin: auto;
+}
+
+.header-form {
+    float: right;
+    padding: 30px 40px;
+    font-size: 20px;
+    border-left: 2px solid rgb(32, 32, 32);
+}
+
+.container {
+    background: url("../images/luca-bravo-9l_326FISzk-unsplash.jpg");
+    background-size: cover;
+    height: 500px;
+}
+
+h1 {
+    margin: 0 100px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(51, 51, 51);
+    font-family: 'Roboto Slab', serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    .header-form {
+        padding: 30px 10px;
+    }
+    .nav{
+        position: absolute;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: black;
+        -webkit-transition: 0.7s;
+        transition: 0.7s;
+        text-align: center;
+    }
+
+    nav ul{
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li{
+        display: block;
+        height: calc(100vh/5);
+        line-height: 130px;
+        list-style-type: none;
+        font-size: 1.6em;
+        text-align: center;
+    }
+
+
+    .nav a{
+        text-decoration: none;
+        text-align: center;
+        color: #fff;
+        height: 100%;
+        text-shadow: initial;
+        margin: 0 15px;
+
+    }
+    
+    nav ul a::before,
+    nav ul a::after{
+        border-bottom: initial;
+        bottom: initial;
+        content: initial;
+        display: initial;
+        transition: initial;
+        -webkit-transition: initial;
+        width: initial;
+        position: initial;
+    }
+    
+    nav ul a::before {
+        left: initial;
+    }
+    
+    nav ul a::after {
+        right: initial;
+    }
+    
+    nav ul a:hover::before,
+    nav ul a:hover::after {
+        width: initial;
+    } 
+
+    #target {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        cursor: pointer;
+        display: block;
+        -webkit-transition: 1s;
+        transition: 1s;
+    }
+
+    .target_inner{
+        width: 30px;
+        height: 30px;
+    }
+
+    .target_inner_line {
+        display: block;
+        width: 40px;
+        height: 3px;
+        background: black;
+        -webkit-transition: 1s;
+        transition: 1s;
+        border-radius: 50px;
+        position: absolute;
+    }
+
+    .target_inner_1 {
+        top: 3px;
+        width: 30px;
+    }
+
+    .target_inner_2 {
+        top: 13px;
+        width: 30px;
+    }
+
+    .target_inner_3 {
+        top: 23px;
+        width: 30px;
+    }
+    .fadein{
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+
+    .linea,.lineb,.linec{
+        background: #882a04;
+        color: white;
+    }
+
+    .linea {
+        -webkit-transform: rotate(225deg);
+        transform: rotate(225deg);
+        top: 13px;
+    }
+
+    .lineb {
+        opacity: 0;
+    }
+
+    .linec {
+        -webkit-transform: rotate(-225deg);
+        transform: rotate(-225deg);
+        top: 13px;
+    }
+
+    .header-logo {
+        display: none;
+    }
+
+    .container h1 {
+        font-size: 36px;
+    }
+
+}
+    
+@media (max-width: 1024px) {
+    .text {
+        margin: auto;
+    }
+}
+
+.container-profile {
+    background: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.container-profile  {
+    text-align: center;
+    font-family: 'Bitter', serif;
+}
+
+h2 {
+    margin-top: 0px;
+    border-bottom: 1px solid rgb(161, 78, 0);
+    font-size: 300%;
+    color:rgb(88, 43, 43);
+}
+

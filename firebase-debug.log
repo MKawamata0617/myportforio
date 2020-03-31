@@ -1,0 +1,47 @@
+[debug] [2019-11-27T16:50:59.613Z] ----------------------------------------------------------------------
+[debug] [2019-11-27T16:50:59.615Z] Command:       D:\node.exe C:\Users\Mamoru_tarosa\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init --project= portfolio-12fd9
+[debug] [2019-11-27T16:50:59.615Z] CLI Version:   7.7.0
+[debug] [2019-11-27T16:50:59.615Z] Platform:      win32
+[debug] [2019-11-27T16:50:59.615Z] Node Version:  v13.1.0
+[debug] [2019-11-27T16:50:59.616Z] Time:          Thu Nov 28 2019 01:50:59 GMT+0900 (日本標準時)
+[debug] [2019-11-27T16:50:59.616Z] ----------------------------------------------------------------------
+[debug] [2019-11-27T16:50:59.616Z] 
+[debug] [2019-11-27T16:50:59.622Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-11-27T16:50:59.622Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Mamoru_tarosa\desktop\Portfolio
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project.
+[debug] [2019-11-27T16:51:17.744Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+
+[debug] [2019-11-27T16:51:18.705Z] <<< HTTP RESPONSE 400
+[debug] [2019-11-27T16:51:18.707Z] <<< HTTP RESPONSE BODY
+[debug] [2019-11-27T16:51:18.711Z] HTTP Error: 400, Request contains an invalid argument.
+[debug] [2019-11-27T16:51:18.945Z] FirebaseError: HTTP Error: 400, Request contains an invalid argument.
+    at module.exports (C:\Users\Mamoru_tarosa\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Request._callback (C:\Users\Mamoru_tarosa\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:39:35)
+    at Request.self.callback (C:\Users\Mamoru_tarosa\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:210:5)
+    at Request.EventEmitter.emit (domain.js:478:20)
+    at Request.<anonymous> (C:\Users\Mamoru_tarosa\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1161:10)
+    at Request.emit (events.js:210:5)
+    at Request.EventEmitter.emit (domain.js:478:20)
+    at IncomingMessage.<anonymous> (C:\Users\Mamoru_tarosa\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1083:12)
+    at Object.onceWrapper (events.js:299:28)
+[error] 
+[error] Error: Failed to create Google Cloud project. See firebase-debug.log for more info.
