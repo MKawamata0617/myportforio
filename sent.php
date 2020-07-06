@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>contact</title>
+  <link rel="stylesheet" href="contact.css">
 </head>
 <body>
   <div class="header">
