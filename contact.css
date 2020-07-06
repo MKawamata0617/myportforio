@@ -1,0 +1,25 @@
+.header-left {
+  float: left;
+  padding: 0px 0px 0px 200px;
+  color: #882a04;
+  font-size: 30px;
+}
+
+.contact-form {
+  width: 70%;
+  margin: 60px auto;
+  padding: 50px;
+  background-color: #F5F5F5;
+  color: #333;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.form-item {
+  padding: 20px 0 10px 0;
+  font-weight: bold;
+}
