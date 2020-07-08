@@ -6,12 +6,17 @@
   <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-  <div class="header">
-    <div class="header-left">contact</div>
-  </div>
-
+  <header>
+    <nav class="nav" id="nav_f">
+      <ul>
+        <li><a href="index.html" class="list">TOP</a></li>
+        <li><a href="#profile" class="list">PROPFILE</a></li>
+        <li><a href="#skill" class="list">SKILL</a></li>
+        <li><a href="#works" class="list">WORKS</a></li>
+      </ul>
+    </nav>
   <div class="main">
-    <div class="thanks-message">お問い合わせいただきありがとうございます。</div>
+    <div class="thanks-message">送信が完了しました。</div>
     <div class="display-contact">
       <div class="form-title">入力内容</div>
 
